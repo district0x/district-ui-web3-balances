@@ -1,5 +1,5 @@
 (ns district.ui.web3-balances.queries
-  (:require [cljs-web3.core :as web3]))
+  (:require [cljs-web3-next.core :as web3]))
 
 (defn contracts [db]
   (-> db :district.ui.web3-balances :contracts))
